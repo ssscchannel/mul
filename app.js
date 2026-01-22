@@ -910,6 +910,8 @@ const GAME = {
         
         const resScore = document.getElementById('res-score');
         const resDetail = document.getElementById('res-detail');
+		// 【新增】取得顯示題庫名稱的 DOM
+        const resBankTitle = document.getElementById('res-bank-title');
 
         // [修正] 只要是「勝利」或是「生存模式(必定死亡結束)」，都視為有效成績
         if (isWin || APP.state.currentMode === 'survival') {
@@ -918,6 +920,12 @@ const GAME = {
 
             if(resScore) resScore.innerText = finalTime.toFixed(2) + "s";
             
+			// 【新增】邏輯：從 APP_DATA 中查找當前 Bank ID 對應的 Title 並顯示
+            if (resBankTitle) {
+                const currentBank = APP_DATA.banks.find(b => b.id === APP.state.currentBankId);
+                resBankTitle.innerText = currentBank ? currentBank.title : "";
+            }
+			
             // 針對模式顯示不同資訊
             if (APP.state.currentMode === 'survival') {
                 if(resDetail) resDetail.innerText = `存活確認 (錯誤：${GAME.totalErrors})`;
