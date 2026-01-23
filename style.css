@@ -632,11 +632,16 @@ select option { background: #222; }
 .hist-school {
     text-align: center;
     color: #aaa;       /* 使用次要顏色，不搶名字風采 */
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: bold;
     background: rgba(255,255,255,0.1); /* 給個淡背景，像Badge */
     border-radius: 4px;
     padding: 2px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	flex-grow: 1;
+	text-align: center;
 }
 
 .admin-menu { display: flex; flex-direction: column; gap: 15px; justify-content: center; align-items: center; height: 100%; }
