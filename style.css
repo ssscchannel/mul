@@ -612,36 +612,71 @@ select option { background: #222; }
 
 #res-score { color: var(--primary-neon) !important; text-shadow: 0 0 20px rgba(0,210,255,0.5); }
 #history-list { background: rgba(0,0,0,0.2); border-radius: 10px; padding: 10px; flex-grow:1; }
-.hist-row { 
-    display: grid; 
-    /* 名字(彈性) | 學校(固定短) | 日期(固定) | 成績(彈性靠右) */
-    grid-template-columns: 1fr 50px 70px 1fr; 
-    gap: 5px; /* 欄位間距 */
-    align-items: center; 
-    border-bottom: 1px solid rgba(255,255,255,0.1); 
-    padding: 8px 0; 
-    color: white; 
-    font-size: 0.95rem; /* 整體字體微調 */
+/* =========================================
+   歷史紀錄列表優化 (Flex 權重分配版)
+   ========================================= */
+
+.hist-row {
+    display: flex;            /* 啟用彈性佈局 */
+    align-items: center;      /* 垂直置中 */
+    width: 100%;
+    padding: 12px 8px;        /* 上下留白，左右稍微縮減 */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;   /* 包含 Padding 計算 */
 }
-.hist-name { 
-    text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: bold;}
-.hist-date { 
-    text-align: center; color: #666; font-size: 0.75rem; }
-.hist-score { 
-    text-align: right; font-weight: bold; }
+
+/* 共用設定：強制不換行 + 省略符號 */
+.hist-name, .hist-school, .hist-date, .hist-score {
+    white-space: nowrap;      /* 強制單行 */
+    overflow: hidden;         /* 超出隱藏 */
+    text-overflow: ellipsis;  /* 超出顯示 ... */
+    min-width: 0;             /* 【關鍵工程參數】允許 Flex 子元素縮小至內容以下 */
+}
+
+/* --- 欄位寬度權重分配 (總和約 5.5 等份) --- */
+
+.hist-name {
+    flex: 1.2;                /* 名字佔 1.2 等份 */
+    text-align: left;
+    font-size: 1rem;
+    color: #fff;
+    padding-right: 5px;
+}
+
 .hist-school {
+    /* 1. 版面與寬度控制：鎖定約 4~5 個字的寬度 */
+    flex: 0 0 5em;        /* 0=不伸展, 0=不壓縮, 5em=基準寬度 */
+    max-width: 5em;       /* 強制最大寬度，避免撐開 */
+    
+    /* 2. 視覺外觀：淡背景標籤風格 */
+    background-color: rgba(255, 255, 255, 0.15); /* 淡白背景 */
+    border-radius: 4px;   /* 圓角 */
+    padding: 2px 0;       /* 上下留白，左右貼齊邊緣以容納更多字 */
+    margin: 0 5px;        /* 與左右鄰居保持距離 */
+
+    /* 3. 文字處理：縮小 + 強制不換行 + 省略符號 */
+    font-size: 0.8rem;    /* 字體縮小 */
+    color: #eee;          /* 字體加亮，對比淡背景 */
+    text-align: center;   /* 文字置中 */
+    
+    white-space: nowrap;      /* 禁止換行 */
+    overflow: hidden;         /* 超出裁切 */
+    text-overflow: ellipsis;  /* 顯示 ... */
+}
+
+.hist-date {
+    flex: 0.8;                /* 日期佔 0.8 等份 (因為日期長度固定) */
     text-align: center;
-    color: #aaa;       /* 使用次要顏色，不搶名字風采 */
     font-size: 0.8rem;
+    color: #666;
+}
+
+.hist-score {
+    flex: 1.5;                /* 分數佔 1.5 等份 (確保秒數清楚) */
+    text-align: right;
+    font-family: monospace;
     font-weight: bold;
-    background: rgba(255,255,255,0.1); /* 給個淡背景，像Badge */
-    border-radius: 4px;
-    padding: 2px 0;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	flex-grow: 1;
-	text-align: center;
+    font-size: 1.1rem;
 }
 
 .admin-menu { display: flex; flex-direction: column; gap: 15px; justify-content: center; align-items: center; height: 100%; }
