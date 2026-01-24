@@ -433,7 +433,7 @@ const APP = {
                 } else {
                     logs.sort((a,b) => (a.time - b.time) || (a.timestamp - b.timestamp));
                 }
-                APP.renderRankList(listContainer, logs.slice(0, 10));
+                APP.renderRankList(listContainer, logs.slice(0, 20));
             };
 
             // 🛑 步驟 D：綁定事件 (使用者後續操作)
