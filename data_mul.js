@@ -178,7 +178,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些粉末聞起來有味道",
+                "question": "哪些粉末聞起來有味道",
                 "correct": [
                     "砂糖",
                     "麵粉",
@@ -546,7 +546,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些會影響磁力大小",
+                "question": "哪些會影響磁力大小",
                 "correct": [
                     "加鐵片",
                     "高溫",
@@ -820,7 +820,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些粉末聞起來有味道",
+                "question": "哪些粉末聞起來有味道",
                 "correct": [
                     "砂糖",
                     "麵粉",
@@ -1188,7 +1188,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些會影響磁力大小",
+                "question": "哪些會影響磁力大小",
                 "correct": [
                     "加鐵片",
                     "高溫",
@@ -1670,7 +1670,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些會影響磁力大小",
+                "question": "哪些會影響磁力大小",
                 "correct": [
                     "加鐵片",
                     "高溫",
@@ -1930,7 +1930,7 @@ var questionData = {
     "4年級": {
         "上冊(H)": [
             {
-                "question": "太陽系包含宇宙的那些層次",
+                "question": "太陽系包含宇宙的哪些層次",
                 "correct": [
                     "恆星",
                     "行星",
@@ -2074,7 +2074,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "關於新月、上弦、滿月、下弦的順序，正確的有那些",
+                "question": "關於新月、上弦、滿月、下弦的順序，正確的有哪些",
                 "correct": [
                     "新月接上弦",
                     "上弦接滿月",
@@ -2250,7 +2250,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "影響物質變化的因素有那些",
+                "question": "影響物質變化的因素有哪些",
                 "correct": [
                     "溫度",
                     "水",
@@ -2663,7 +2663,7 @@ var questionData = {
                 "decoys": [
                     "數學課本",
                     "Switch",
-                    "遙控器車",
+                    "遙控車",
                     "洋娃娃"
                 ]
             },
@@ -3214,7 +3214,7 @@ var questionData = {
         ],
         "上冊(N)": [
             {
-                "question": "太陽系包含宇宙的那些層次",
+                "question": "太陽系包含宇宙的哪些層次",
                 "correct": [
                     "恆星",
                     "行星",
@@ -3358,7 +3358,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "關於新月、上弦、滿月、下弦的順序，正確的有那些",
+                "question": "關於新月、上弦、滿月、下弦的順序，正確的有哪些",
                 "correct": [
                     "新月接上弦",
                     "上弦接滿月",
@@ -3970,7 +3970,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "四季的日出方位正確的有那些",
+                "question": "四季的日出方位正確的有哪些",
                 "correct": [
                     "春分正東",
                     "秋分正東",
@@ -4450,7 +4450,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些代表速度較快",
+                "question": "哪些代表速度較快",
                 "correct": [
                     "同距離越快到",
                     "同時間跑越遠"
@@ -4514,7 +4514,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "相較於1樓地板，那些屬於位能大的地方",
+                "question": "相較於1樓地板，哪些屬於位能大的地方",
                 "correct": [
                     "摩天輪最高點",
                     "101頂樓",
@@ -4578,7 +4578,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些不是白光色散後的顏色",
+                "question": "哪些不是白光色散後的顏色",
                 "correct": [
                     "黑",
                     "灰",
@@ -4772,7 +4772,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些動物是體外受精",
+                "question": "哪些動物是體外受精",
                 "correct": [
                     "青蛙",
                     "海星",
@@ -4788,7 +4788,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些動物是胎生",
+                "question": "哪些動物是胎生",
                 "correct": [
                     "貓",
                     "狗",
@@ -4804,7 +4804,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些動物是變溫動物",
+                "question": "哪些動物是變溫動物",
                 "correct": [
                     "青蛙",
                     "烏龜",
@@ -4820,7 +4820,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些動物有育幼行為",
+                "question": "哪些動物有育幼行為",
                 "correct": [
                     "燕子",
                     "貓",
@@ -4861,7 +4861,7 @@ var questionData = {
                 "decoys": [
                     "音速",
                     "頻率",
-                    "振福",
+                    "振幅",
                     "回聲",
                     "波長",
                     "共振"
@@ -5060,7 +5060,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些不是白光色散後的顏色",
+                "question": "哪些不是白光色散後的顏色",
                 "correct": [
                     "黑",
                     "灰",
@@ -5572,7 +5572,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "四季的日出方位正確的有那些",
+                "question": "四季的日出方位正確的有哪些",
                 "correct": [
                     "春分正東",
                     "秋分正東",
@@ -5684,7 +5684,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "類地行星有那些",
+                "question": "類地行星有哪些",
                 "correct": [
                     "水星",
                     "金星",
@@ -5796,7 +5796,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "太陽系包含宇宙的那些層次",
+                "question": "太陽系包含宇宙的哪些層次",
                 "correct": [
                     "恆星",
                     "行星",
@@ -5862,7 +5862,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些不是白光色散後的顏色",
+                "question": "哪些不是白光色散後的顏色",
                 "correct": [
                     "黑",
                     "灰",
@@ -6054,7 +6054,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "四季的日出方位正確的有那些",
+                "question": "四季的日出方位正確的有哪些",
                 "correct": [
                     "春分正東",
                     "秋分正東",
@@ -6534,7 +6534,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些代表速度較快",
+                "question": "哪些代表速度較快",
                 "correct": [
                     "同距離越快到",
                     "同時間跑越遠"
@@ -6598,7 +6598,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "相較於1樓地板，那些屬於位能大的地方",
+                "question": "相較於1樓地板，哪些屬於位能大的地方",
                 "correct": [
                     "摩天輪最高點",
                     "101頂樓",
@@ -6634,7 +6634,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "物質受熱後會有那些改變",
+                "question": "物質受熱後會有哪些改變",
                 "correct": [
                     "顏色",
                     "形狀",
@@ -6666,7 +6666,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些符合散熱原理",
+                "question": "哪些符合散熱原理",
                 "correct": [
                     "搧風",
                     "保持通風",
@@ -6954,7 +6954,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "礦物鑑定會利用那些方式",
+                "question": "礦物鑑定會利用哪些方式",
                 "correct": [
                     "顏色",
                     "光澤",
@@ -7162,7 +7162,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些屬於電磁波",
+                "question": "哪些屬於電磁波",
                 "correct": [
                     "無線電波",
                     "微波",
@@ -7676,7 +7676,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "胃有那些消化功能",
+                "question": "胃有哪些消化功能",
                 "correct": [
                     "攪拌",
                     "暫時儲存",
@@ -7804,7 +7804,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些屬於電磁波",
+                "question": "哪些屬於電磁波",
                 "correct": [
                     "無線電波",
                     "微波",
@@ -7918,7 +7918,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "物質受熱後會有那些改變",
+                "question": "物質受熱後會有哪些改變",
                 "correct": [
                     "顏色",
                     "形狀",
@@ -7950,7 +7950,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些符合散熱原理",
+                "question": "哪些符合散熱原理",
                 "correct": [
                     "搧風",
                     "保持通風",
@@ -8238,7 +8238,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "礦物鑑定會利用那些方式",
+                "question": "礦物鑑定會利用哪些方式",
                 "correct": [
                     "顏色",
                     "光澤",
@@ -8446,7 +8446,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些屬於電磁波",
+                "question": "哪些屬於電磁波",
                 "correct": [
                     "無線電波",
                     "微波",
@@ -8642,7 +8642,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "用量筒量取30毫升的硫酸，需要用到那些器材",
+                "question": "用量筒量取30毫升的硫酸，需要用到哪些器材",
                 "correct": [
                     "滴管",
                     "量筒",
@@ -8770,7 +8770,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "想要測得整數1～10克，至少需要那些砝碼",
+                "question": "想要測得整數1～10克，至少需要哪些砝碼",
                 "correct": [
                     "1個1g",
                     "2個2g",
@@ -8962,7 +8962,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "生活中，那些物質是昇華的實例",
+                "question": "生活中，哪些物質是昇華的實例",
                 "correct": [
                     "乾冰",
                     "碘",
@@ -8994,7 +8994,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "物理性質有那些",
+                "question": "物理性質有哪些",
                 "correct": [
                     "顏色",
                     "味道",
@@ -9458,7 +9458,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "黃金不易生鏽，小小一塊卻很重，而且可以拉很長，可以得知那些特性",
+                "question": "黃金不易生鏽，小小一塊卻很重，而且可以拉很長，可以得知哪些特性",
                 "correct": [
                     "活性",
                     "密度",
@@ -10306,7 +10306,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "那些不是白光色散後的顏色",
+                "question": "哪些不是白光色散後的顏色",
                 "correct": [
                     "黑",
                     "灰",
@@ -10562,7 +10562,7 @@ var questionData = {
                 ]
             },
             {
-                "question": "物質受熱後會有那些改變",
+                "question": "物質受熱後會有哪些改變",
                 "correct": [
                     "顏色",
                     "形狀",
